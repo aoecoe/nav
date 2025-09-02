@@ -75,9 +75,9 @@ export const SearchBar = ({
           id="search"
           style={{ backgroundColor: "rgba(42, 42, 42, 0.42)" }}
           aria-label="搜索"
-          placeholder={`${hitokoto.hitokoto} —— ${hitokoto.from}`}
+          placeholder={"请输入关键字"}
           autoFocus
-          value={"请输入关键字"}
+          value={"value"}
           onFocus={handleInputFocus}
           onChange={handleInputChange}
         />
